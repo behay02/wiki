@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Википедия: Любимый человек</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Linux Libertine', 'Georgia', serif;
+    background:#f6f6f6;
+    color:#202122;
+    line-height:1.6;
+    padding:20px;
+  }
+  .container {
+    max-width: 1000px; margin: 0 auto;
+    background:#fff;
+    border: 1px solid #a2a9b1;
+    padding: 25px 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  }
+  .header {
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex; justify-content: space-between;
+    align-items: center; flex-wrap: wrap; gap: 10px;
+  }
+  .header .logo {
+    font-family: 'Linux Libertine', Georgia, serif;
+    font-size: 1.8rem;
+  }
+  .header .logo b { color: #d6336c; }
+  .header .search {
+    border: 1px solid #a2a9b1; padding: 5px 10px;
+    border-radius: 3px; font-size: .9rem;
+    color: #72777d; font-style: italic;
+  }
+
+  h1 {
+    font-family: 'Linux Libertine', Georgia, serif;
+    font-size: 2rem; font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 8px; margin-bottom: 15px;
+  }
+  h1 .subtitle { font-size: 1rem; color: #54595d; font-style: italic; }
+
+  h2 {
+    font-family: 'Linux Libertine', Georgia, serif;
+    font-size: 1.5rem; font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 5px; margin: 25px 0 12px;
+  }
+  h3 {
+    font-size: 1.15rem; margin: 15px 0 8px;
+  }
+  p { margin-bottom: 12px; }
+  a { color: #3366cc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .red-link { color: #d33; }
+
+  /* Инфобокс */
+  .infobox {
+    float: right;
+    width: 280px;
+    border: 1px solid #a2a9b1;
+    background: #f8f9fa;
+    font-size: .9rem;
+    margin: 0 0 15px 20px;
+    padding: 0;
+  }
+  .infobox-title {
+    background: #eaecf0;
+    text-align: center; font-weight: bold;
+    padding: 8px; border-bottom: 1px solid #a2a9b1;
+    font-size: 1rem;
+  }
+
+  /* === ЗДЕСЬ ИЗМЕНЕНО: стили для картинки === */
+  .infobox-img {
+    text-align: center;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  .infobox-img img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-bottom: 1px solid #a2a9b1;
+  }
+  /* === КОНЕЦ изменений === */
+
+  .infobox table {
+    width: 100%; border-collapse: collapse;
+  }
+  .infobox td {
+    padding: 6px 10px;
+    border-top: 1px solid #eaecf0;
+    vertical-align: top;
+  }
+  .infobox td:first-child {
+    font-weight: bold; width: 40%;
+    color: #54595d;
+  }
+
+  /* Оглавление */
+  .toc {
+    background: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: .95rem;
+  }
+  .toc .toc-title {
+    text-align: center; font-weight: bold;
+    margin-bottom: 8px;
+  }
+  .toc ol { margin-left: 20px; }
+  .toc li { margin: 3px 0; }
+
+  .quote {
+    border-left: 4px solid #d6336c;
+    background: #fff5f8;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #54595d;
+  }
+
+  .note {
+    background: #eaf3ff;
+    border: 1px solid #a2a9b1;
+    padding: 10px 15px;
+    font-size: .9rem;
+    margin: 15px 0;
+  }
+
+  .footer {
+    border-top: 1px solid #a2a9b1;
+    margin-top: 30px; padding-top: 15px;
+    font-size: .85rem; color: #54595d;
+    text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    .infobox { float: none; width: 100%; margin: 0 0 20px; }
+    h1 { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="logo"><b>Вики</b>педия<br><span style="font-size:.7rem; letter-spacing:2px;">Свободная энциклопедия любви</span></div>
+    <div class="search">🔍 Поиск по сердцу...</div>
+  </div>
+
+  <h1>Любимая Лиза💘 <span class="subtitle">(моя вторая половинка)</span></h1>
+
+  <div class="infobox">
+    <div class="infobox-title">Любимая Лиза💘</div>
+    <div class="infobox-img">
+        <img src="sheeesh.jpg" alt="Любимая Лиза">
+     </div>   
+    <table>
+      <tr><td>Пол</td><td>Лучший на свете</td></tr>
+      <tr><td>Статус</td><td>Занята мной 💕</td></tr>
+      <tr><td>Красота</td><td>Бесконечная</td></tr>
+      <tr><td>Улыбка</td><td>Ослепительная</td></tr>
+      <tr><td>Характер</td><td>Идеальный</td></tr>
+      <tr><td>Любит</td><td>Меня ❤️</td></tr>
+      <tr><td>Дата рождения</td><td>Тот самый день ✨</td></tr>
+      <tr><td>Знак</td><td>Моё сердце</td></tr>
+    </table>
+  </div>
+
+  <p><b>Любимая</b> — уникальная личность, обладающая невероятной способностью делать мир ярче, а сердце — теплее. Является единственной в своём роде экземпляром, не подлежит замене или сравнению.</p>
+
+  <p>Согласно наблюдениям, данный индивид способен вызывать улыбку одним сообщением, ускорять пульс одним взглядом и превращать обычный день в незабываемый. Официально признана самой Любимой персоной в моей вселенной.</p>
+
+  <div class="toc">
+    <div class="toc-title">Содержание</div>
+    <ol>
+      <li><a href="#op">Описание</a></li>
+      <li><a href="#har">Характеристики</a></li>
+      <li><a href="#vliy">Влияние на меня</a></li>
+      <li><a href="#fakt">Интересные факты</a></li>
+    </ol>
+  </div>
+
+  <h2 id="op">Описание</h2>
+  <p>Внешне — самое красивое существо, которое когда-либо видел автор статьи. Внутренне — сочетание доброты, ума, юмора и необъяснимой магии, от которой кружится голова.</p>
+  <p>Особые приметы: неповторимая улыбка, глаза, от которых тает сердце и замирает дыхание, и голос, звучащий лучше любой музыки.</p>
+
+  <div class="quote">
+    «Я искал ответы на все вопросы во вселенной, пока не понял: ответ — это ты.»
+  </div>
+
+  <h2 id="har">Характеристики</h2>
+  <table style="border-collapse:collapse; width:100%; border:1px solid #a2a9b1; margin:15px 0;">
+    <tr style="background:#eaecf0;">
+      <th style="padding:8px; border:1px solid #a2a9b1; text-align:left;">Параметр</th>
+      <th style="padding:8px; border:1px solid #a2a9b1; text-align:left;">Значение</th>
+    </tr>
+    <tr><td style="padding:8px; border:1px solid #a2a9b1;">Красота</td><td style="padding:8px; border:1px solid #a2a9b1;">10/10 ⭐</td></tr>
+    <tr><td style="padding:8px; border:1px solid #a2a9b1;">Доброта</td><td style="padding:8px; border:1px solid #a2a9b1;">Безграничная 💖</td></tr>
+    <tr><td style="padding:8px; border:1px solid #a2a9b1;">Ум</td><td style="padding:8px; border:1px solid #a2a9b1;">Гениальный 🧠</td></tr>
+    <tr><td style="padding:8px; border:1px solid #a2a9b1;">Чувство юмора</td><td style="padding:8px; border:1px solid #a2a9b1;">Бомбовый</td></tr>
+    <tr><td style="padding:8px; border:1px solid #a2a9b1;">Обнимашки</td><td style="padding:8px; border:1px solid #a2a9b1;">Лучшие в мире 🤗</td></tr>
+    <tr><td style="padding:8px; border:1px solid #a2a9b1;">Общая оценка</td><td style="padding:8px; border:1px solid #a2a9b1;"><b>Идеально ♾️</b></td></tr>
+  </table>
+
+  <h2 id="vliy">Влияние на меня</h2>
+  <p>С момента знакомства автор статьи отмечает резкое улучшение настроения, повышение уровня счастья и снижение интереса ко всем остальным людям. Побочные эффекты: постоянная улыбка, желание обнимать, писать милые сообщения и одаривать подарками.</p>
+
+  <div class="note">
+    <b>⚠️ Внимание:</b> Передозировка общением с данным человеком приводит к хронической влюблённости. Лечение не требуется. 💘
+  </div>
+
+  <h2 id="fakt">Интересные факты</h2>
+  <ul style="margin: 10px 0 15px 25px;">
+    <li>Умеет поднимать настроение без слов</li>
+    <li>Улыбается во сне (по неподтверждённым данным)</li>
+    <li>Притягивает взгляды и мысли автора 24/7</li>
+    <li>Является официальным источником моего счастья</li>
+    <li>Занесёна в Красную книгу моего сердца</li>
+  </ul>
+
+  <div class="footer">
+    <p>Последняя правка: сегодня, с любовью ❤️</p>
+    <p>Статья защищена от редактирования. Только для одного читателя — тебя.</p>
+    <p style="margin-top:10px;">💖 С любовью, навсегда Бехруз 💖</p>
+    <p> ЛЮБЛЮ ТЕБЯ НЕИМОВЕРНО💖</p>
+  </div>
+</div>
+
+</body>
+</html>
